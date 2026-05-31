@@ -1,14 +1,17 @@
 body {
     background-color: black;
 }
-
+a{
+    color: #ffc300;
+    text-decoration: none;
+}
 div#splash {
     position: fixed;
     top:0;
     left:0;
     width:100%;
     height:100vh;
-    background-color: #240115;
+    background-color: #a50304;
     font-size:20px;
     z-index: 9999;
     padding:20px;
@@ -127,17 +130,50 @@ div.contentsbodytext {
     top: 60%;
 }
 
-div.featurebodytext {
-    font-size: 18px;
-    font-family: "pacaembu", sans-serif;
-    color: #ffc300;
+div.colophontext {
+    font-size: 25px;
+    font-family: "jetsam-collection-kugelkopf", sans-serif;
+    color: #faf5fa;
+    text-align: center;
 }
 
-div.bodytext {
+div.colophonbody {
     font-size: 14px;
     font-family: "novel-mono-pro", sans-serif;
     line-height: 1.2;
     color: #faf5fa;
+    text-align: justify;
+}
+
+div.featurebodytext {
+    font-size: 15px;
+    font-family: "pacaembu", sans-serif;
+    color: #ffc300;
+}
+
+div.featurequote {
+    font-size: 15px;
+    font-family: "novel-mono-pro", sans-serif;
+    color: #faf5fa;
+    text-shadow: 0px 0px 1px #faf5fa;
+    position: 10;
+    margin-top: -160px;
+    text-align: center;
+}
+
+div.highlight {
+background-color: white;
+width: auto;
+position: 11;
+border-radius: 0px;
+}
+
+div.bodytext {
+    font-size: 16px;
+    font-family: "novel-mono-pro", sans-serif;
+    line-height: 1.2;
+    color: #faf5fa;
+    text-align: justify;
 }
 
 div.openingtext {
@@ -146,7 +182,7 @@ div.openingtext {
     margin-top: 50vh;
     font-family: "novel-mono-pro", sans-serif;
     line-height: 1.2;
-    color: #ffc300;
+    color: rgb(0, 0, 0);
 }
 
 div.box {
@@ -158,10 +194,6 @@ div.box {
     height: 400;
     margin-top: 80px;
     background-color:rgb(66, 223, 223)
-}
-
-div.contents {
-
 }
 
 div.box {
@@ -188,11 +220,12 @@ div.capitals {
 }
 
 div.tiktoks img {
-width: 760px;
+width: 58%;
 height: auto;
 float: right;
-margin-right: 50px;
+margin-right: ;
 margin-left: 30px;
+margin-top: 45px;
 }
 
 div.vastfields img {
@@ -204,27 +237,28 @@ margin-top: -100px;
 }
 
 div.chatgbt img {
-    width: 1430px;
+    width: 100%;
     height: auto;
     margin-bottom: -280px;
     margin-top: 30px;
 }
 
 div.movement img {
-    width: 710px;
+    width: 49.5%;
     height: auto;
 }
 
 div.crops img {
-    width: 1430px;
+    width: 100%;
     height: auto;
     margin-bottom: 15px;
 }
 
 div.frontier img {
-    width: 1430px;
+    width: 100%;
     height: auto;
     margin-bottom: 100px;
+    position: 100;
 }
 
 div.headlines img {
@@ -232,13 +266,17 @@ div.headlines img {
     height: auto;
 }
 
-div.right {
-    text-align: right;
+div.politics img {
+    width: 70%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 14.5%;
+    margin-right: 14.5%;
+
 }
 
-div.right05 {
+div.right {
     text-align: right;
-    margin-right: 5px;
 }
 
 div.right40 {
@@ -281,10 +319,6 @@ div.left2 {
     margin-left: 150px;
 }
 
-div.strip {
-    margin-right: 820px;
-}
-
 div.left3 {
     text-align: left;
     margin-left: 200px;
@@ -294,6 +328,14 @@ div.left4 {
     text-align: left;
     margin-left: 400px;
     margin-right: 265px;
+}
+
+div.gap6 {
+    margin-bottom: 900px;
+}
+
+div.gap5 {
+    margin-bottom: 200px;
 }
 
 div.gap4 {
@@ -344,4 +386,177 @@ div.figure3 {
     margin-left: 735px;
     margin-top: 303px;
 }
+
+div.move1 {
+    margin-top: -113px;
+}
+
+div.move2 {
+    margin-top: -215px;
+}
+
+div.move3 {
+    margin-top: -215px;
+}
+
+div.contentmove1 {
+    margin-top: 15px;
+    margin-left: 42%;
+}
+
+div.contentmove2 {
+    margin-top: -20px;
+    margin-bottom: 30px;
+text-align: right;
+margin-right: 1%;
+}
+
+div.contentmove3 {
+    margin-top: -10px;
+text-align: left;
+margin-left: 46%;
+}
+
+div.contentmove4 {
+    text-align: left;
+    margin-left: 65%;
+    margin-right:1%;
+    margin-top: 20px;
+}
+
+div.contentmove5 {
+    text-align: left;
+    margin-left: 6%;
+    margin-right: 60%;
+}
+
+div.contentmove6 {
+    text-align: right;
+    margin-right: 4%;
+}
+
+div.contentmove7 {
+    text-align: right;
+    margin-right: 1%;
+}
+
+div.contentmove8 {
+    text-align: right;
+    margin-right: %;   
+    margin-top:-72px;
+}
+
+div.contentmove9 {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 40%;
+    margin-top: 500px;
+}
+
+div.contentmove10 {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 40%;
+    margin-top: 50px;
+    margin-bottom: -200px;
+}
+
+div.contentmove11 {
+    text-align: center;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 320px;
+}
+
+div.contentmove12 {
+    text-align: center;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 35px;
+}
+
+div.contentmove13 {
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 20px;
+    margin-bottom: 230px;
+}
+
+div.contentmove14 {
+    margin-top: -180px;
+}
+
+div.contentmove15 {
+    margin-top: -70px;
+    text-align: right;
+    margin-right: 1%;
+}
+
+div.contentmove16 {
+    text-align: right;
+    margin-right: 64%;
+}
+
+div.contentmove17 {
+    text-align: right;
+    margin-right: 5px;
+    margin-top: -13px;
+}
+
+div.contentmove18 {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+}
+
+div.contentmove19 {
+    text-align: right;
+    margin-bottom: -18px;
+    margin-right: 45.5%;
+}
+
+div.contentmove20 {
+    text-align: right;
+    margin-right: 15.5%;
+margin-top: -352px;
+}
+
+div.contentmove21 {
+    margin-top: -150px;
+    margin-left: 10%;
+}
+
+div.contentmove22 {
+text-align: left;
+margin-top: 60px;
+margin-right: 65%;
+}
+
+div.contentmove23 {
+text-align: left;
+margin-top: -213px;
+margin-left: 50%;
+margin-right: 15%;
+}
+
+div.contentmove24 {
+text-align: left;
+margin-left: 14.5%;
+margin-right: 39%;
+margin-top: -295px;
+}
+
+div.contentmove25 {
+text-align: left;
+margin-left: 14.5%;
+}
+
+div.contentmove26 {
+text-align: right;
+margin-right: 14.5%;
+margin-top: 305px;
+}
+
 
