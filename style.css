@@ -107,9 +107,10 @@ div.introbodytext {
     font-family: "novel-mono-pro", sans-serif;
     line-height: 1.2;
     color: #faf5fa;
-    margin-left: 620px;
-    margin-right: 150px;
+    margin-left: 15%;
+    margin-right: 15%;
     position: relative;
+    text-align: center;
     z-index: 1;
 }
 
@@ -186,14 +187,14 @@ div.openingtext {
 }
 
 div.box {
-    width: 900;
-    font-size: 30px;
-    border-radius: 5px;
+    width: 100%;
+    font-size: ;
+    border-radius: ;
     margin-left: auto;
     margin-right: auto;
     height: 400;
     margin-top: 80px;
-    background-color:rgb(66, 223, 223)
+    background-color:#
 }
 
 div.box {
@@ -229,10 +230,9 @@ margin-top: 45px;
 }
 
 div.vastfields img {
-width: 79%;
+width: 100%;
 height: auto;
 margin-bottom: -350px;
-margin-left: 55px;
 margin-top: -100px;
 }
 
@@ -337,6 +337,11 @@ div.gap6 {
 div.gap5 {
     margin-bottom: 200px;
 }
+
+div.gap7 {
+    margin-bottom: 500px;
+}
+
 
 div.gap4 {
     margin-bottom: 400px;
@@ -559,4 +564,27 @@ margin-right: 14.5%;
 margin-top: 305px;
 }
 
+div.contentmove30 {
+text-align: right;
+margin-right: 2%;
+margin-top: -400px;
+margin-bottom: 190px;
+}
 
+div.space {
+    margin-top: 600px;
+}
+
+div.contentmove27 {
+    margin-top: -180px;
+    text-align: left;
+    margin-left: 1%;
+}
+
+div.contentmove28 {
+    margin-top: 50px;
+}
+
+div.contentmove29 {
+    margin-top: 405px;
+}
